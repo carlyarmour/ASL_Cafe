@@ -20,6 +20,11 @@ body {
     text-shadow: 1px 1px 1px white;
   }
   
+h2 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
   nav li {
     display: inline-block;
     padding: 7px 25px 7px 25px;

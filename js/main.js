@@ -1,0 +1,1 @@
+alert('Easy access and free parking!);

@@ -5,3 +5,4 @@ while (name == 'null') {
 if (name !== 'null') {
     alert("Welcome, " + name + "!");
 }
+

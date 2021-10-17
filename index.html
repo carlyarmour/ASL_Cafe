@@ -4,6 +4,21 @@
     <title>ASL Cafe'- Location </title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
+  <script type="text/javascript">
+    document.write("<center><font size=+3 style='color: green;'>");
+    var day = new Date();
+    var hr = day.getHours();
+    if (hr >= 0 && hr < 12) {
+        document.write("Good Morning!");
+    } else if (hr == 12) {
+        document.write("Good Noon!");
+    } else if (hr >= 12 && hr <= 17) {
+        document.write("Good Afternoon!");
+    } else {
+        document.write("Good Evening!");
+    }
+    document.write("</font></center>");
+  </script>
   <body>
     <header>
       <h1>Location</h1>
@@ -22,35 +37,6 @@
       <p> Address: 254 Da Java Street, Iowa City, IA </p>
       <img src="cafe_map.jpg" alt="Map of cafe located in Iowa City">
     </main>
-
-    </script> 
-
-     <script type="text/javascript"> 
-            function sendEmail() { 
-            Email.send({ 
-                Host: "imap.gmail.com", 
-                Username: "carlyarmour@gmail.com", 
-                Password: "HESA2018phd", 
-                To: 'carlyarmour@gmail.com', 
-                From: "sender@email_address.com", 
-                Subject: "Sending Email using javascript", 
-                Body: "Well that was easy!!", 
-            }) 
-                .then(function (message) { 
-                alert("mail sent successfully") 
-                }); 
-            } 
-  </script> 
-  </head> 
-
-  <body> 
-  <form method="post"> 
-	      <input type="button" value="Send Email"
-	          	onclick="sendEmail()" /> 
-  </form> 
-  </body>  
-
-
 
     <footer>
       <p>Powered by Carly &amp; Angela</p>

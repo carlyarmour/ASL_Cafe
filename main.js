@@ -3,6 +3,6 @@ while (name == 'null') {
     name = prompt("Please tell me your name: ");
 }
 if (name !== 'null') {
-    alert("Welcome, " + name + "!");
+    alert("Welcome, " + name + "! Contact us if you need anything.");
 }
 

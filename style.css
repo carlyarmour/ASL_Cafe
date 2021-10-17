@@ -34,7 +34,7 @@ body {
   ul {
     margin: 0;
     padding: 0;
-    background-color: darkcyan;
+    background-color: rgba(40, 212, 212, 0.884);
     width: 95%; 
     margin: 0 auto;
     border-radius: 5px; 
@@ -42,7 +42,7 @@ body {
   
 
   a:link {
-    color: #3170ac;
+    color: #13538f;
   }
   
   main {

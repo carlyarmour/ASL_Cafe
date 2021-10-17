@@ -45,11 +45,6 @@ body {
     color: #3170ac;
   }
   
-  a {
-    text-decoration: none;
-    color: white;
-  }
-  
   main {
     background-color: rgb(255, 249, 249);
     padding: 10px;

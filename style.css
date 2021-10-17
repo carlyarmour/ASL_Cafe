@@ -5,7 +5,7 @@ body {
   }
   
   header, main, footer {
-    border-radius: 5px;
+    border-radius: 5px; color:rgb(255, 249, 249)
   }
   
   header {
@@ -27,7 +27,7 @@ body {
 
   nav li {
     display: inline-block;
-    padding: 7px 25px 7px 25px;
+    padding: 7px 25px 7px 25px; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
   }
   
@@ -39,7 +39,6 @@ body {
     margin: 0 auto;
     border-radius: 5px; 
   }
-  
 
   a:link {
     color: #13538f;
@@ -56,7 +55,7 @@ body {
   }
   
   footer {
-    background-color: darkcyan;
+    background-color: #13538f;
     text-align: center;
     border-radius: 3px;
   }

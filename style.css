@@ -40,6 +40,11 @@ body {
     border-radius: 5px; 
   }
   
+
+  a:link {
+    color: #3170ac;
+  }
+  
   a {
     text-decoration: none;
     color: white;

@@ -15,14 +15,14 @@ function getGreeting() {
 var greeting = document.getElementById("greeting");
 greeting.textContent = getGreeting();
 // end of greeting prompt
-}
 
 function myFunction() {
   var input = document.getElementById("result").value;
   if (input == 2) {
     document.getElementById("answer").innerHTML = "You got it!"
   } else {
-    document.getElementById("answer").innerHTML = "Whoops, nope."
+    document.getElementById("answer").innerHTML = "Whoops, no. Try again."
+  }
 }
 var cafeForm = document.getElementById("cafe");
 cafeForm.addEventListener("submit", function(event) {
@@ -30,6 +30,7 @@ cafeForm.addEventListener("submit", function(event) {
   myFunction();
 });
 
+parent.innerHTML = ""
 function secondFunction() {
   var javatea = document.getElementById("question").value;
   var parent = document.getElementById('image');

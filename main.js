@@ -30,12 +30,11 @@ cafeForm.addEventListener("submit", function(event) {
   myFunction();
 });
 
-parent.innerHTML = ""
 function secondFunction() {
   var javatea = document.getElementById("question").value;
   var parent = document.getElementById('image');
   var imagePath = "fullcoffee.jpg";
-
+  parent.innerHTML = "";
   for (let i = javatea; i > 0; i--) {
       var img = new Image();
       img.src = imagePath;
